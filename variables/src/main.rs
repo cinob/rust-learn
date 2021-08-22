@@ -19,7 +19,6 @@ fn main() {
         x + 1
     };
     println!("y: {}", y);
-
 }
 
 fn another_func(x: i32) {
