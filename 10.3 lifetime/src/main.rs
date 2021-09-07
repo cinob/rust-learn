@@ -1,6 +1,6 @@
-struct ImportantExcerpt<'a> {
-    part: &'s str
-}
+// struct ImportantExcerpt<'a> {
+//     part: &'s str
+// }
 
 fn main() {
     let string1 = String::from("abcd");
@@ -10,8 +10,9 @@ fn main() {
 
     let res;
     {
-        let string2 = "xyz";
-        res = longest(string1.as_str(), string2);
+        // let string2 = "xyz";
+        let string2 = String::from("xyz");
+        res = longest(string1.as_str(), string2.as_str());
     }
 
     println!("longest: {}", res);
