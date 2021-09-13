@@ -1,6 +1,12 @@
 use std::{env, process};
 use minigrep::Config;
 
+
+/// # Examples
+///
+/// ```bash
+/// cargo run to poem.txt
+/// ```
 fn main() {
     // let args: Vec<String> = env::args().collect();
 
